@@ -1,72 +1,74 @@
-*{
-   padding: 0;
-   margin: 0;
-   box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-.glass-nav{
-    background: rgba(138, 138, 138, 0.25);
-        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-        backdrop-filter: blur(5px);
-        -webkit-backdrop-filter: blur(0px);
-        border-radius: 10px;
-        border: 1px solid rgba(255, 255, 255, 0.18);
+.glass-nav {
+  background: rgba(138, 138, 138, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(0px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
-.links{
-    color: black;
-    font-size: 18px;
-    transition: 0.5s all ease;
+.links {
+  color: black;
+  font-size: 18px;
+  transition: 0.5s all ease;
 }
-.links:hover{
-    opacity: 0.7;
-    text-decoration: underline;
+.links:hover {
+  opacity: 0.7;
+  text-decoration: underline;
 }
-.logo{
-    width: 120px;
+.logo {
+  width: 120px;
 }
-.main{
-    margin: 5% 0;
+.main {
+  margin: 5% 0;
 }
-.img-container{
-    display: flex;
+.img-container {
+  display: flex;
 }
-.banner-img{
-    width: 50%;
-    height: 20rem;
-    border-radius: 30%;
-    border: 7px solid whitesmoke;
+.banner-img {
+  width: 50%;
+  height: 20rem;
+  border-radius: 30%;
+  border: 7px solid whitesmoke;
 }
-.over-image{
-    margin: 18% 0 0 -15%;
+.over-image {
+  margin: 18% 0 0 -15%;
 }
 
 /* Four col section */
-.get-button{
-    border-radius: 0 30px 30px 0;
+.get-button {
+  border-radius: 0 30px 30px 0;
 }
-.get-container{
-text-align: center; 
+.get-container {
+  text-align: center;
 }
 
 /* Media queries */
 @media (max-width: 966px) {
-    .main{
-        margin-top: 10%;
-    }
-        .banner-img {
-            width: 100%;
-            height: 18rem;
-           
-        }
-                .glass-nav{
-                    background-color: white;
-                }
+  .main {
+    margin-top: 10%;
+  }
+  .banner-img {
+    width: 100%;
+    height: 18rem;
+  }
+  .glass-nav {
+    background-color: white;
+  }
+  .get-button {
+      border-radius: 0;
+  }
 }
 
 @media (max-width: 502px) {
-.main {
-        margin-top: 20%;
-    }
-    .banner-img{
-        height: 12rem;
-    }
+  .main {
+    margin-top: 20%;
+  }
+  .banner-img {
+    height: 12rem;
+  }
 }
