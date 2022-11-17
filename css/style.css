@@ -15,6 +15,7 @@
   color: black;
   font-size: 18px;
   transition: 0.5s all ease;
+  font-weight: 600;
 }
 .links:hover {
   opacity: 0.7;
