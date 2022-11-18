@@ -48,4 +48,4 @@ geonix test
  </table>
  
  #### Visit Site 
- <a href="https://eduford-clone-2022.netlify.app/">Click to Visit</a>
+ <a href="https://geonix-test.netlify.app/">Click to Visit</a>
