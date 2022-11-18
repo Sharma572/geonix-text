@@ -17,7 +17,7 @@ geonix test
             1.
         </td>
         <td>
-            HTML
+            HTML 5
         </td>
     </tr>
     <tr>
@@ -25,7 +25,7 @@ geonix test
             2.
         </td>
         <td>
-            CSS
+            CSS 3
         </td>
     </tr>
     <tr>
@@ -41,7 +41,7 @@ geonix test
             3.
         </td>
         <td>
-            Web Components 
+            Bootstrap 5
         </td>
     </tr>
     
